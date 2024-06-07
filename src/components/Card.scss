@@ -1,0 +1,52 @@
+.card {
+  padding: 25px;
+  border-radius: 5px;
+  background-color: var(--white);
+  box-shadow: 3px 3px 2px rgb(214, 214, 214);
+  margin: 0 auto 30px;
+  min-height: 50px;
+  display: var(--flex-display);
+  align-items: flex-start;
+  justify-content: space-between;
+  position: relative;
+  width: 95%;
+  resize: none;
+
+  .left-col {
+    width: 80%;
+  }
+
+  .subject {
+    font-weight: var(--fw-900);
+    margin-bottom: var(--mb-5);
+  }
+
+  .question {
+    width: 80%;
+    font-size: var(--fs-14);
+    font-weight: var(--fw-300);
+    margin-bottom: var(--mb-10);
+  }
+
+  .text {
+    font-weight: var(--fw-700);
+  }
+
+  .team {
+    font-weight: var(--fw-700);
+    min-width: 30%;
+    margin-bottom: var(--mb-5);
+  }
+
+  .created-at {
+    font-size: var(--fs-14);
+  }
+}
+
+.high-rating-message {
+  color: var(--high-rating-message)
+}
+
+.low-rating-message {
+  color: var(--low-rating)
+}
